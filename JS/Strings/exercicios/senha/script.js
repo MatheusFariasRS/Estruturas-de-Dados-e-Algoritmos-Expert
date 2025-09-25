@@ -11,7 +11,7 @@ VALIDO || INVALIDO
 function validatePassword(str){
     const regex = /^(?=.*[A-Za-z])(?=.*\d)(?=.*[@#&]).{8,}$/;
     
-    return str.match(regex) ? "VALIDO" : "INVALIDO";
+    return regex.test(str) ? "VALIDO" : "INVALIDO";
 }
 
 console.log(validatePassword("amerca1@"))
