@@ -13,6 +13,6 @@ function longestCommonPrefix(v){
     return result.join('');
     
 }
-console.log((`"${longestCommonPrefix(["flow","flight","flowers"])}"`));
-console.log((`"${longestCommonPrefix(["dog","racecar","car"])}"`));
+console.log(`"${longestCommonPrefix(["flow","flight","flowers"])}"`);
+console.log(`"${longestCommonPrefix(["dog","racecar","car"])}"`);
 
